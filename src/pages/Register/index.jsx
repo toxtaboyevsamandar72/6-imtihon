@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
 import { Link, useNavigate } from "react-router-dom";
-import RemoveRedEyeSharpIcon from "@mui/icons-material/RemoveRedEyeSharp"; // Import icon
+import RemoveRedEyeSharpIcon from "@mui/icons-material/RemoveRedEyeSharp"; 
 
 function Register() {
   const [email, setEmail] = useState("");
